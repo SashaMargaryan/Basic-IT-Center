@@ -1,7 +1,5 @@
-a=40
-print(float(a))
-print(str(a))
-print(bool(a))
-#int poxvume float i ogntyamb zro amboxch tasnortakan tiv
-#str i ognutyamb teqsti
-#bool i ognutyamb True kam False
+import math
+x=float(input("trvache:x"))
+y=float(input("trvache:y"))
+
+print("luchum:",(math.cos(x)/math.sin(y)*math.fabs(math.pow(x,2)-y))/math.pow(x,2)+math.pow(y,2)+math.log((math.pow(x,2)-1)))

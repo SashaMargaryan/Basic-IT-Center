@@ -1,16 +1,5 @@
-a="100"
-b="90"
-c="80"
-d="120"
+import math
+x=float(input("trvache:x"))
+y=float(input("trvache:y"))
 
-a=int(a)
-print(a)
-
-b=float(b)
-print(b)
-
-c=bool(c)
-print(c)
-
-d=d
-print(d)
+print("luchum:",(math.pow(x,70)+(math.pow(y,70)+math.pow(4,7)))+math.sin(math.cos(x+y)))
