@@ -4,4 +4,4 @@ b=0
 
 for x in a:
     b=b+x
-    print(b/len(a))
+print(b/len(a))
