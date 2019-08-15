@@ -1,0 +1,4 @@
+arr=[]
+
+print(type(arr))
+
