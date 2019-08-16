@@ -1,4 +1,0 @@
-arr=[]
-
-print(type(arr))
-
